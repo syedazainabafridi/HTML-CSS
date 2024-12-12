@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CSS FOR NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    align-items: center;
+    height: 70px;
+}
+.logo {
+    font-size: 35px;
+}
+.logo span {
+    font-size: 35px;
+    color: red;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.navbar .icons {
+    display: flex;
+    gap: 25px;
+
+}
+.navbar .icons i {
+    font-size: 28px;
+    color: black;
+}
+/*CSS FOR HERO SECTION */
+/* We will give height to only hero section , never give height to other sections */
+.hero {
+    height: 100vh;
+    /* BG-img,repeat,position,sixe */
+    background: url('/Images/sunset.png') no-repeat center center/cover;
+}
+.content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .content h1,
+.content p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+.content h1{
+font-size: 65px;
+}
+.content p {
+    font-size: 25px;
+    margin: 25px 0;
+}
+.btn {
+    padding: 15px;
+    color: black;
+    background-color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 900;
+}
+/* About section */
+.about .about-logo{
+    text-align: center;
+    font-size: 65px;
+    margin: 40px 20px;
+}
+.about .container{
+display: flex;
+justify-content: center;
+gap: 50px;
+align-items: center;
+margin: 40px 0px;
+}
+.about .container img{
+    height:300px ;
+    width: 400px;
+}
+.about .container .about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  footer .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .foot a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  footer .foot h3{
+    color: green;
+    font-size: 30px;
+  }

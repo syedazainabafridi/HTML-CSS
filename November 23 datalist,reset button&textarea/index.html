@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <!--By default get method is set...Get method send data through url & post method directly send data to that specific page thats why post method is secure -->
+  <form action="demo.js" method="post">
+    <div>
+    <label for="msg">Message</label><br>
+    <textarea id="msg" cols="20" rows="8"></textarea>
+</div>
+<div>
+    <label for="vehicle">Select Car Brands</label>
+    <input type="text" id="vehicle" list="cars">
+    <datalist id="cars">
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="jaguar">Jaguar</option>
+        <option value="tata">Tata</option>
+    </datalist>
+</div>
+<input type="submit" value="Send Data">
+<input type="reset" value="Reset Form">
+  </form>
+</body>
+</html>

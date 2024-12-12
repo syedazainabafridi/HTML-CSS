@@ -1,0 +1,44 @@
+/* Universal selector */
+*{
+
+    background-color: blanchedalmond;
+}
+/* Id selector : */
+#myheading{
+    background-color: aqua;
+    color: blue;
+}
+/* class selector: */
+.common{
+    background-color: aquamarine;
+    color: red;
+}
+.diff{
+    font-size: 80px;
+}
+
+.heading{
+    font-size: 60px;
+    color: cadetblue;
+}
+p{
+    font-weight: 500;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-wrap:wrap;
+}
+/* Nested Selector 
+we can use multiple nesting but avoid directly targeting with element instead use classes
+
+*/
+div img{
+height: 300px;
+width: 400px;
+}
+/* Multiple selector */
+img,
+p,
+.heading
+{
+    text-align: center;
+}

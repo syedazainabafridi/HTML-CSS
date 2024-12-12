@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+
+    height: 500px;
+}
+img{
+    height: 200px;
+   width: 200px;
+   margin-bottom: 20px;
+}
+#apple{
+    width: 230px;
+}
+
+.card{
+height: 400px;
+width: 300px;
+padding: 30px;
+border: 2px solid violet;
+border-radius: 25px;
+text-align: center;
+}
+a{
+    text-decoration: none;
+    padding: 16px;
+    background-color: rgb(166, 132, 197);
+    color: rgb(66, 2, 126);
+    font-weight: 800;
+}
+.mainText{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(46, 83, 106);
+    background-color:rgb(46, 83, 106,0.2);
+    background-color: #7789;
+}
+.mypara{
+    background-color: steelblue;
+    color: rgb(244, 197, 141);
+    font-size: 34px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 800;
+    /* For uppercase lowercase capitalize */
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+   border-width: 10px;
+   border-style: dotted;
+   border-color: blue;
+   /* Shorthand */
+   border: 12px solid black;
+   border-radius: 60px;
+}
+.new{
+    height: 300px;
+    border-top: 12px solid yellowgreen;
+    border-left: 12px dashed darkgoldenrod;
+    border-right:12px dotted green ;
+    border-bottom: 5px solid palevioletred;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 10px;
+}
+#circle{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border-radius:50%;
+}

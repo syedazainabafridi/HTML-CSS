@@ -1,0 +1,10 @@
+/* Element selector */
+body{
+    background-color: steelblue;
+    color:rgb(134, 65, 5);
+}
+h2{
+    background-color: aquamarine;
+    color: blue;
+}
+/* Id Selector  */
